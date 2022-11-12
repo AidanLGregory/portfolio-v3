@@ -4,7 +4,7 @@ function ProjectItem({ imgUrl, title, stack, linkUrl, codeUrl, description }) {
     return (
         <section id="projects" className="flex items-center justify-center flex-col pt-20 pb-6 mx-3">
             <div>
-                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
                     <a href={linkUrl === "/" ? 'javascript:void(0);' : linkUrl} >
                         <img class="rounded-t-lg" src={imgUrl} alt="AOS Gardening Solutions" />
                     </a>
@@ -19,7 +19,6 @@ function ProjectItem({ imgUrl, title, stack, linkUrl, codeUrl, description }) {
                         </p>
                         <div className="flex flex-wrap items-center justify-evenly">
                             <p class="my-3 mb-5 font-normal text-gray-700 dark:text-gray-400">{description}</p>
-                            {/* <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> */}
                             <a href={linkUrl === "/" ? 'javascript:void(0);' : linkUrl} className={linkUrl === "/" ? 'cursor-not-allowed' : 'cursor-pointer'}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="2.25rem" height="2.25rem" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
                                     <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
