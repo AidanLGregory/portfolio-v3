@@ -1,7 +1,7 @@
 export default [
     {
         title: 'AOS',
-        imgUrl: '/assets/images/aos.png',
+        imgUrl: 'assets/images/aos.png',
         stack: ['Laravel', 'Vue', 'Sass'],
         codeUrl: '/',
         linkUrl: 'https://aosgardeningsolutions.com',
@@ -9,7 +9,7 @@ export default [
     },
     {
         title: 'Developer Portfolio',
-        imgUrl: './src/assets/images/portfolio.png',
+        imgUrl: 'assets/images/portfolio.png',
         stack: ['React', 'Tailwind', 'Vite'],
         codeUrl: '/',
         linkUrl: 'https://aidangregory.com',
@@ -17,7 +17,7 @@ export default [
     },
     {
         title: 'Pointless Clicking Game',
-        imgUrl: './src/assets/images/pointless.png',
+        imgUrl: 'assets/images/pointless.png',
         stack: ['Python', 'PyGame', 'Game Dev'],
         codeUrl: 'https://github.com/AidanLGregory/pointless-clicking-game',
         linkUrl: '/',

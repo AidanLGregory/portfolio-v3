@@ -21,7 +21,7 @@ function ProjectItem({ imgUrl, title, stack, linkUrl, codeUrl, description }) {
             <div>
                 <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md w-full">
                     <a href={linkUrl === "/" ? 'javascript:void(0);' : linkUrl} target={linkTarget}>
-                        <img class="rounded-t-lg" src={imgUrl} alt="AOS Gardening Solutions" className="object-fit h-72 w-full" />
+                        <img class="rounded-t-lg" src={imgUrl} alt={title} className="object-fit h-72 w-full" />
                     </a>
                     <div class="p-5">
                         <a href={linkUrl === "/" ? 'javascript:void(0);' : linkUrl} target={linkTarget}>
