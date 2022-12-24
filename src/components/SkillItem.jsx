@@ -3,8 +3,8 @@ import React from "react";
 function SkillItem({ title, icon }) {
     return (
         <div>
-            <h4 className="text-center p-3">{title}</h4>
             <img className="m-3" src={icon} />
+            <h4 className="text-center p-2">{title}</h4>
         </div>
     );
 }

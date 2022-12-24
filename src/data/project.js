@@ -1,15 +1,15 @@
 export default [
     {
-        title: 'AOS Gardening Solutions',
+        title: 'AOS',
         imgUrl: './src/assets/images/aos.png',
         stack: ['Laravel', 'Vue', 'Sass'],
         codeUrl: '/',
         linkUrl: 'https://aosgardeningsolutions.com',
-        description: 'This was my first project completed for a client. They are a gardening company based in the UK who reached out to me in order to build them their first website.'
+        description: 'This was my first project completed for a client. A gardening company based in the UK who reached out to me in order to build them their first website.'
     },
     {
-        title: 'Portfolio',
-        imgUrl: './src/assets/images/aos.png',
+        title: 'Developer Portfolio',
+        imgUrl: './src/assets/images/portfolio.png',
         stack: ['React', 'Tailwind', 'Vite'],
         codeUrl: '/',
         linkUrl: 'https://aidangregory.com',
@@ -17,7 +17,7 @@ export default [
     },
     {
         title: 'Pointless Clicking Game',
-        imgUrl: './src/assets/images/aos.png',
+        imgUrl: './src/assets/images/pointless.png',
         stack: ['Python', 'PyGame', 'Game Dev'],
         codeUrl: 'https://github.com/AidanLGregory/pointless-clicking-game',
         linkUrl: '/',

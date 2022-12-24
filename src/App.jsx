@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="bg-white text-stone-900 min-h-screen font-inter">
-        <div className="max-w-5x1 w-11/12 mx-auto">
+        <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Projects />
           <Skills />
