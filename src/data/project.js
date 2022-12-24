@@ -1,7 +1,7 @@
 export default [
     {
         title: 'AOS',
-        imgUrl: './src/assets/images/aos.png',
+        imgUrl: '/assets/images/aos.png',
         stack: ['Laravel', 'Vue', 'Sass'],
         codeUrl: '/',
         linkUrl: 'https://aosgardeningsolutions.com',
