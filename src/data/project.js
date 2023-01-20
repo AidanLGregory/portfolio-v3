@@ -18,7 +18,7 @@ export default [
     {
         title: 'Jaimee & Aidan',
         imgUrl: 'assets/images/jaimeeandaidan.png',
-        stack: ['Wordpress', 'Blog',],
+        stack: ['WordPress', 'Blog', 'Shop'],
         codeUrl: '/',
         linkUrl: 'https://jaimeeandaidan.com',
         description: 'This project originally started out as just a travel blog. I have now updated it to be a full blown website featuring a blog, e-commerce shop and more. '
