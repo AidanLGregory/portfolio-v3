@@ -16,11 +16,11 @@ export default [
         description: 'I decided to build a portfolio site in a minimalistic fashion in order to display my work. This is also the only site I have built so far using React and Tailwind.'
     },
     {
-        title: 'Pointless Clicking Game',
-        imgUrl: 'assets/images/pointless.png',
-        stack: ['Python', 'PyGame', 'Game Dev'],
-        codeUrl: 'https://github.com/AidanLGregory/pointless-clicking-game',
-        linkUrl: '/',
-        description: 'This project was my introduction into game development. This game was built using the PyGame module and is a clone of the classic Cookie Clicker game.'
+        title: 'Jaimee & Aidan',
+        imgUrl: 'assets/images/jaimeeandaidan.png',
+        stack: ['Wordpress', 'Blog',],
+        codeUrl: '/',
+        linkUrl: 'https://jaimeeandaidan.com',
+        description: 'This project originally started out as just a travel blog. I have now updated it to be a full blown website featuring a blog, e-commerce shop and more. '
     },
 ]
